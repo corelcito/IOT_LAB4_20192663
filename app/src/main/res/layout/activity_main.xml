@@ -26,7 +26,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:srcCompat="@drawable/img_2" />
+        app:srcCompat="@drawable/messi" />
 
     <LinearLayout
         android:layout_width="0dp"
@@ -47,18 +47,21 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:gravity="center"
-            android:textSize="18sp"
+            android:textSize="20sp"
             android:textStyle="bold"
             android:textColor="@color/black"
-            android:text="ApiLeague" />
+            android:text="Tele - Fútbol"
+            />
 
         <com.google.android.material.button.MaterialButton
             android:id="@+id/btn_init"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:backgroundTint="@color/black"
-            android:text="Ingresar" />
+            android:backgroundTint="@color/red_boton"
+            android:fontFamily="@font/raleway_bold"
+            android:text="Ingresar"
+            android:textSize="20sp"/>
 
         <TextView
             android:id="@+id/textView3"
@@ -66,7 +69,9 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:textColor="@color/black"
+            android:fontFamily="@font/raleway_bold"
             android:gravity="center"
-            android:text="elaborado por : Dev - 2024" />
+            android:textSize="22sp"
+            android:text="Elaborado por : Elvis - 20192663" />
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

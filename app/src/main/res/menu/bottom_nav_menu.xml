@@ -2,17 +2,17 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
     <item
         android:id="@+id/navigation_leagues"
-        android:icon="@drawable/baseline_flag_24"
+        android:icon="@drawable/trofeo"
         android:title="@string/title_leagues" />
 
     <item
         android:id="@+id/navigation_positions"
-        android:icon="@drawable/baseline_calendar_view_month_24"
+        android:icon="@drawable/posicion"
         android:title="@string/title_positions" />
 
     <item
         android:id="@+id/navigation_results"
-        android:icon="@drawable/baseline_present_to_all_24"
+        android:icon="@drawable/resultado"
         android:title="@string/title_results" />
 
 </menu>

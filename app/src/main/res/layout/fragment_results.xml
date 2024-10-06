@@ -14,7 +14,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
-        android:text="Resultado de los partidos"
+        android:text="RESULTADOS DE LOS PARTIDOS"
         android:textColor="@color/black"
         android:textStyle="bold"
         android:textSize="24sp"
@@ -101,7 +101,7 @@
             android:id="@+id/btn_search_events"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:backgroundTint="@color/black"
+            android:backgroundTint="@color/red_boton"
             android:text="Buscar" />
 
     </LinearLayout>

@@ -28,6 +28,7 @@ public class MainActivity extends AppCompatActivity {
         btnInit.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                // Verificar la conexión a Internet, desde que inicia la app y cuando se ya esta en la app (2 casos)
                 if (!NetworkUtils.isConnected(MainActivity.this)) {
                     showNoConnectionDialog();
                 } else {
@@ -36,7 +37,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
     }
-
+//Ayuda de chatgpt como activar un mensaje de configuracion de internet
     private void showNoConnectionDialog() {
 
         dialog = new AlertDialog.Builder(this)

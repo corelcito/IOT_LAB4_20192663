@@ -5,7 +5,7 @@ import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
 
 public class NetworkUtils {
-
+//continuacion de la ayuda de chatgpt: como saber si hay conexion a internet con el mensaje de ir a configuracion del propio dispositivo
     public static boolean isConnected(Context context) {
         ConnectivityManager connectivityManager =
                 (ConnectivityManager) context.getSystemService(Context.CONNECTIVITY_SERVICE);

@@ -217,7 +217,7 @@ public class ResultsFragment extends Fragment implements SensorEventListener {
     public void onAccuracyChanged(Sensor sensor, int accuracy) {
 
     }
-
+//Pregunte a una IA como hacer que solo muestre 1 vez el dialogo de confirmacion/cancelar puesto que los mensajes pueden supoerponerse
     private void showConfirmationDialog() {
         if (dialog != null) {
             if(dialog.isShowing()) {

@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">ApiLeague</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="title_leagues">Ligas</string>
+    <string name="title_positions">Posiciones</string>
+    <string name="title_results">Resultados</string>
+</resources>
